@@ -28,6 +28,7 @@ function onInput(e) {
 function onFormSubmit(e) {
   // відміняємо дію за замовчуванням
   e.preventDefault();
+  // Напрошується валідація форми перед відправленням, але її нема в ТЗ
   // видаляємо значення з локального сховища
   localStorage.removeItem(LOCALSTORAGE_KEY);
   // Очищаємо поля форми
